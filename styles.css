@@ -1,0 +1,115 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2, h4 {
+    color: #00ffcc;
+    text-align: center;
+}
+
+#folderPath {
+    color: #000; /* 将文字颜色改为黑色 */
+    overflow: auto; /* 确保路径名可以完整显示 */
+}
+
+.form-label {
+    color: #00ffcc;
+}
+
+.input-group, .form-control, .form-select, .btn {
+    background-color: #333;
+    border: 1px solid #00ffcc;
+    color: #e0e0e0;
+}
+
+.input-group .btn-secondary {
+    background-color: #00ffcc;
+    color: #1a1a1a;
+}
+
+.btn-primary {
+    background-color: #00ffcc;
+    border: none;
+    color: #1a1a1a;
+}
+
+.btn-success {
+    background-color: #00cc99;
+    border: none;
+    color: #1a1a1a;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.table th {
+    background-color: #004d40;
+    color: #fff;
+    padding: 12px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+.table td {
+    padding: 12px 15px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 0.95em;
+    color: #fff; /* 将内容文字颜色改为白色 */
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #333 !important;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #222;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+#searchResults {
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: none;
+}
+
+#searchResults:empty {
+    display: none;
+}
+
+#searchResults p {
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    padding: 20px;
+}
